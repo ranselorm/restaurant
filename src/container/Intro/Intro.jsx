@@ -20,7 +20,7 @@ const Intro = () => {
     <>
       <div className="app__video">
         <video
-          src={meal}
+          src="https://res.cloudinary.com/ranselorm/video/upload/v1683127519/meal_geat3p.mp4"
           type="video/mp4"
           loop
           muted

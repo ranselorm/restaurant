@@ -28,7 +28,10 @@ const Laurels = () => (
       </div>
     </div>
     <div className="app__wrapper_img laurel-img">
-      <img src={images.laurels} alt="laurels" />
+      <img
+        src="https://res.cloudinary.com/ranselorm/image/upload/v1683127877/laurels_lfoubp.png"
+        alt="laurels"
+      />
     </div>
   </div>
 );

@@ -7,7 +7,10 @@ import { SubHeading } from "../../components";
 const Chef = () => (
   <div className="app__bg app__wrapper section__padding">
     <div className="app__wrapper_img app__wrapper_img-reverse">
-      <img src={images.chef} alt="chef" />
+      <img
+        src="https://res.cloudinary.com/ranselorm/image/upload/v1683127138/chef_rs4r7c.png"
+        alt="chef"
+      />
     </div>
     <div className="app__wrapper_info">
       <SubHeading title="Chef's Word" />
