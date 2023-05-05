@@ -1,4 +1,5 @@
 import G from "../assets/G.png";
+import welcome from "../assets/welcome.svg";
 import gallery01 from "../assets/gallery01.png";
 import gallery02 from "../assets/gallery02.png";
 import gallery03 from "../assets/gallery03.png";
@@ -34,4 +35,5 @@ export default {
   sign,
   quote,
   gericht,
+  welcome,
 };

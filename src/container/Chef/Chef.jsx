@@ -1,13 +1,12 @@
-import React from "react";
-
 import "./Chef.css";
 import { images } from "../../constants";
 import { SubHeading } from "../../components";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 
 const Chef = () => (
   <div className="app__bg app__wrapper section__padding">
     <div className="app__wrapper_img app__wrapper_img-reverse">
-      <img
+      <LazyLoadImage
         src="https://res.cloudinary.com/ranselorm/image/upload/v1683127138/chef_rs4r7c.png"
         alt="chef"
       />
@@ -17,7 +16,7 @@ const Chef = () => (
       <h1 className="headtext__cormorant">What We Believe In</h1>
       <div className="app__chef-content">
         <div className="app_chef-content_quote">
-          <img src={images.quote} alt="" />
+          <LazyLoadImage src={images.quote} alt="" />
           <p className="p__opensans">
             Lorem ipsum dolor sit amet consectetur adipisicing elit
           </p>
@@ -31,7 +30,7 @@ const Chef = () => (
       <div className="app__chef-sign">
         <p className="headtext__cormorant">Kevin Luo</p>
         <p className="p__opensans">Chef & Founder</p>
-        <img src={images.sign} alt="signature" />
+        <LazyLoadImage src={images.sign} alt="signature" />
       </div>
     </div>
   </div>

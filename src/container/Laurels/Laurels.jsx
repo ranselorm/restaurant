@@ -1,10 +1,11 @@
 import { SubHeading } from "../../components";
-import { images, data } from "../../constants";
+import { data } from "../../constants";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 import "./Laurels.css";
 
 const AwardCard = ({ award, key }) => (
   <div className="app__laurels_awards-card">
-    <img src={award.imgUrl} alt="award" />
+    <LazyLoadImage src={award.imgUrl} alt="award" />
     <div className="app__laurels_awards-card_content">
       <p className="p__cormorant" style={{ color: "#DCCA87" }}>
         {award.title}
@@ -28,7 +29,7 @@ const Laurels = () => (
       </div>
     </div>
     <div className="app__wrapper_img laurel-img">
-      <img
+      <LazyLoadImage
         src="https://res.cloudinary.com/ranselorm/image/upload/v1683127877/laurels_lfoubp.png"
         alt="laurels"
       />

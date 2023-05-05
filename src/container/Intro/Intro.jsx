@@ -1,6 +1,6 @@
 import React, { useRef, useState } from "react";
 import { BsFillPlayFill, BsPauseFill } from "react-icons/bs";
-import { meal } from "../../constants";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 
 import "./Intro.css";
 
