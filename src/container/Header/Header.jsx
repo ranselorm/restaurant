@@ -1,6 +1,8 @@
 import "./Header.css";
 import { SubHeading } from "../../components";
 import { images } from "../../constants";
+import { LazyLoadImage } from "react-lazy-load-image-component";
+import "react-lazy-load-image-component/src/effects/blur.css";
 
 const Header = () => {
   return (
@@ -20,9 +22,10 @@ const Header = () => {
           <button className="custom__button">Explore Menu</button>
         </div>
         <div className="app__wrapper_img">
-          <img
+          <LazyLoadImage
             src="https://res.cloudinary.com/ranselorm/image/upload/v1683127142/welcome_bcnnu9.png"
             alt=""
+            effect="blur"
           />
         </div>
       </div>

@@ -1,6 +1,7 @@
 import { SubHeading } from "../../components";
 import { images } from "../../constants";
 import { LazyLoadImage } from "react-lazy-load-image-component";
+import "react-lazy-load-image-component/src/effects/blur.css";
 
 const FindUs = () => (
   <div className="app__bg app__wrapper section__padding">
@@ -25,7 +26,7 @@ const FindUs = () => (
       </button>
     </div>
     <div className="app__wrapper_img">
-      <LazyLoadImage src={images.findus} alt="findus" />
+      <LazyLoadImage src={images.findus} alt="findus" effect="blur" />
     </div>
   </div>
 );
