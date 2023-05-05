@@ -23,21 +23,24 @@
   justify-content: center;
   align-items: center;
   list-style: none;
+  font-family: Montserrat;
 }
 
-.app__navbar-links li {
+.app__navbar-links .scroll {
   margin: 0 1rem;
   cursor: pointer;
   /* font-family: Cormorant; */
 }
-.app__navbar-links li:hover {
+.app__navbar-links .scroll:hover {
   color: var(--color-grey);
+  border-bottom: 1px solid var(--color-golden);
 }
 
 .app_navbar-login {
   display: flex;
   justify-content: center;
   align-items: center;
+  font-family: Montserrat;
 }
 .app_navbar-login a {
   text-decoration: none;
@@ -113,4 +116,12 @@
   .app__navbar-logo {
     width: 110px;
   }
+}
+
+.sticky-top {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 1020;
+  /* background-color: red; */
 }

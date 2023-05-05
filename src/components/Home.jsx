@@ -15,7 +15,6 @@ import { Navbar } from "./";
 const Home = () => {
   return (
     <>
-      <Navbar />
       <Header />
       <AboutUs />
       <SpecialMenu />
@@ -24,7 +23,6 @@ const Home = () => {
       <Laurels />
       <Gallery />
       <FindUs />
-      <Footer />
     </>
   );
 };

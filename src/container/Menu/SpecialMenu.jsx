@@ -1,6 +1,6 @@
 import React from "react";
 import "./SpecialMenu.css";
-import { data } from "../../constants";
+import { data, images } from "../../constants";
 import { MenuItem, SubHeading } from "../../components";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 
@@ -26,10 +26,7 @@ const SpecialMenu = () => (
         </div>
       </div>
       <div className="app__specialMenu-menu_img">
-        <LazyLoadImage
-          src="https://res.cloudinary.com/ranselorm/image/upload/v1683127133/menu_d9pdwz.png"
-          alt=""
-        />
+        <LazyLoadImage src={images.menu} alt="" />
       </div>
       <div className="app__specialMenu-menu_cocktails flex__center">
         <p className="app__specialMenu_menuHeading">Cocktails</p>

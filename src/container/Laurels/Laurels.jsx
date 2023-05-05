@@ -1,5 +1,5 @@
 import { SubHeading } from "../../components";
-import { data } from "../../constants";
+import { data, images } from "../../constants";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import "./Laurels.css";
 
@@ -29,10 +29,7 @@ const Laurels = () => (
       </div>
     </div>
     <div className="app__wrapper_img laurel-img">
-      <LazyLoadImage
-        src="https://res.cloudinary.com/ranselorm/image/upload/v1683127877/laurels_lfoubp.png"
-        alt="laurels"
-      />
+      <LazyLoadImage src={images.laurels} alt="laurels" />
     </div>
   </div>
 );

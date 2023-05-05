@@ -30,7 +30,7 @@ const AboutUs = () => (
         <button className="custom__button">Know More</button>
       </div>
       <div className="app__aboutus-content_knife">
-        <LazyLoadImage src={images.knife} alt="knife" />
+        {/* <LazyLoadImage src={images.knife} alt="knife" /> */}
       </div>
       <div className="app__aboutus-content_history">
         <h1 className="headtext__cormorant">Our History</h1>

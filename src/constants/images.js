@@ -1,11 +1,14 @@
 import G from "../assets/G.png";
-import welcome from "../assets/welcome.svg";
-import gallery01 from "../assets/gallery01.png";
-import gallery02 from "../assets/gallery02.png";
-import gallery03 from "../assets/gallery03.png";
-import gallery04 from "../assets/gallery04.png";
+import welcome from "../assets/welcome.png";
+import chef from "../assets/chef.png";
+import gallery01 from "../assets/gallery01.jpg";
+import gallery02 from "../assets/gallery02.jpg";
+import gallery03 from "../assets/gallery03.jpg";
+import gallery04 from "../assets/gallery04.jpg";
 import knife from "../assets/knife.png";
 import logo from "../assets/logo.png";
+import laurels from "../assets/laurels.png";
+import menu from "../assets/menu.jpg";
 import overlaybg from "../assets/overlaybg.png";
 import spoon from "../assets/spoon.svg";
 import findus from "../assets/findus.png";
@@ -36,4 +39,7 @@ export default {
   quote,
   gericht,
   welcome,
+  menu,
+  chef,
+  laurels,
 };

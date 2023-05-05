@@ -6,10 +6,7 @@ import { LazyLoadImage } from "react-lazy-load-image-component";
 const Chef = () => (
   <div className="app__bg app__wrapper section__padding">
     <div className="app__wrapper_img app__wrapper_img-reverse">
-      <LazyLoadImage
-        src="https://res.cloudinary.com/ranselorm/image/upload/v1683127138/chef_rs4r7c.png"
-        alt="chef"
-      />
+      <LazyLoadImage src={images.chef} alt="chef" />
     </div>
     <div className="app__wrapper_info">
       <SubHeading title="Chef's Word" />

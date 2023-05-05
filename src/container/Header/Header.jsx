@@ -22,11 +22,7 @@ const Header = () => {
           <button className="custom__button">Explore Menu</button>
         </div>
         <div className="app__wrapper_img">
-          <LazyLoadImage
-            src="https://res.cloudinary.com/ranselorm/image/upload/v1683127142/welcome_bcnnu9.png"
-            alt=""
-            effect="blur"
-          />
+          <LazyLoadImage src={images.welcome} alt="" effect="blur" />
         </div>
       </div>
     </>
